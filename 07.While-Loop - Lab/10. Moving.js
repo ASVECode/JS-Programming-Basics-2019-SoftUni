@@ -6,9 +6,9 @@ function solve(input) {
     let boxes;
 
     while (space > 0) {
-       let line = Number(input.shift());
-//console.log(line)
-        if(line == 'Done'){
+        let line = input.shift();
+        //console.log(line)
+        if (line == 'Done') {
             console.log(`${space} Cubic meters left.`)
             break;
         }
@@ -27,7 +27,10 @@ function solve(input) {
 }
 
 solve([
-    '10', '10', '2',
-    '20', '20', '20',
-    '20', '122',""
+    '10',
+    '1',
+    '2',
+    '4',
+    '6',
+    'Done'
 ])

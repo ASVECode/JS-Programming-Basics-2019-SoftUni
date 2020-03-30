@@ -9,4 +9,4 @@ function solve(input) {
     console.log(`The number is: ${num}`);
 
 }
-solve([-6,-5])
+solve(['-6','-5'])
